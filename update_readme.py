@@ -34,13 +34,13 @@ def update_readme(price: float) -> None:
     updated = False
     for idx, line in enumerate(content):
         if line.startswith("### Last updated Bitcoin price"):
-            content[idx] = f"### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 🤑\n_Last updated on {current_time}_\n"
+            content[idx] = f"### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 💰\n_Last updated on {current_time}_\n"
             updated = True
             break
     
     # If not found, add a new section to the README
     if not updated:
-        content.append(f"\n### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 🤑\n_Last updated on {current_time}_\n")
+        content.append(f"\n### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 💰\n_Last updated on {current_time}_\n")
 
     # Write the updated content back to README.md
     with open("README.md", "w") as file:
