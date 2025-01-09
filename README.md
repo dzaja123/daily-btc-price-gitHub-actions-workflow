@@ -1,5 +1,7 @@
 # Bitcoin Price Updater
 
+### Last updated Bitcoin price
+
 ### 🚨 **Current Bitcoin Price**: **💰 $91,904.00 USD** 💰
 _Last updated on 2025-01-09 20:02:23 UTC_
 
@@ -34,6 +36,3 @@ Now, I have both a fun contribution graph and up-to-date crypto price data every
 ![Image](./image/image.jpeg)
 
 ---
-
-### 🚨 **Current Bitcoin Price**: **💰 $91,904.00 USD** 💰
-_Last updated on 2025-01-09 20:07:49 UTC_
