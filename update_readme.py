@@ -33,7 +33,7 @@ def update_readme(price: float) -> None:
     # Find the line where the Bitcoin price is updated or create a new one
     updated = False
     for idx, line in enumerate(content):
-        if line.startswith("### Last updated Bitcoin price"):
+        if line.startswith("### 🚨 **Current Bitcoin Price"):
             content[idx] = f"### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 💰\n_Last updated on {current_time}_\n"
             updated = True
             break
