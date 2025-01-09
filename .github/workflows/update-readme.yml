@@ -36,4 +36,4 @@ jobs:
           git config --global user.email "nikoladzajevickg@gmail.com"
           git add README.md
           git commit -m "Updated Bitcoin price in README"
-          git push https://github-actions:$GH_TOKEN@github.com/dzaja123/daily-btc-price-gitHub-actions-workflow.git
+          git push https://github-actions:$secrets.GH_TOKEN@github.com/dzaja123/daily-btc-price-gitHub-actions-workflow.git
