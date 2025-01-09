@@ -1,6 +1,6 @@
 # Bitcoin Price Updater
 
-### Last updated Bitcoin price: **$[BTC_PRICE] USD** on **[DATE]** (UTC)
+### Last updated Bitcoin price: $92039 USD on 2025-01-09 19:58:45 UTC
 
 This repository automatically fetches the current Bitcoin (BTC) price every day and updates the `README.md` file with the latest price, along with the date and time of the update.
 The updates are done using a Python script that retrieves the price from the CoinGecko API and commits the changes to the repository, ensuring that the `README.md` always reflects the latest BTC price.
