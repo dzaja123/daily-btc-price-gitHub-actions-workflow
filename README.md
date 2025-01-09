@@ -1,6 +1,6 @@
 # Bitcoin Price Updater
 
-### 🚨 **Current Bitcoin Price**: **💰 $92,039.00 USD** 💰
+### 🚨 **Current Bitcoin Price**: **💰 $91,904.00 USD** 💰
 _Last updated on 2025-01-09 20:02:23 UTC_
 
 This repository automatically fetches the current Bitcoin (BTC) price every day and updates the `README.md` file with the latest price, along with the date and time of the update.
@@ -34,9 +34,3 @@ Now, I have both a fun contribution graph and up-to-date crypto price data every
 ![Image](./image/image.jpeg)
 
 ---
-
-### 🚨 **Current Bitcoin Price**: **💰 $91,904.00 USD** 💰
-_Last updated on 2025-01-09 20:03:26 UTC_
-
-### 🚨 **Current Bitcoin Price**: **💰 $91,904.00 USD** 💰
-_Last updated on 2025-01-09 20:04:13 UTC_
