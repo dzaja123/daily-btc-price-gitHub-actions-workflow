@@ -3,9 +3,6 @@
 ### 🚨 **Current Bitcoin Price**: **💰 $92,184.00 USD** 💰
 _Last updated on 2025-01-09 20:08:58 UTC_
 
-### 🚨 **Current Bitcoin Price**: **💰 $91,904.00 USD** 💰
-_Last updated on 2025-01-09 20:02:23 UTC_
-
 This repository automatically fetches the current Bitcoin (BTC) price every day and updates the `README.md` file with the latest price, along with the date and time of the update.
 The updates are done using a Python script that retrieves the price from the CoinGecko API and commits the changes to the repository, ensuring that the `README.md` always reflects the latest BTC price.
 
