@@ -30,22 +30,27 @@ def update_readme(price: float) -> None:
     with open("README.md", "r") as file:
         content = file.readlines()
 
-    # Find the line where the Bitcoin price is updated or create a new one
+    # Update or replace the Bitcoin price and timestamp
+    updated_content = []
     updated = False
-    for idx, line in enumerate(content):
+    for line in content:
         if line.startswith("### 🚨 **Current Bitcoin Price"):
-            content[idx] = f"### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 💰\n_Last updated on {current_time}_\n"
+            updated_content.append(f"### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 💰\n")
             updated = True
-            break
-    
-    # If not found, add a new section to the README
-    if not updated:
-        content.append(f"\n### 🚨 **Current Bitcoin Price**: **💰 ${price:,.2f} USD** 💰\n_Last updated on {current_time}_\n")
+        elif line.startswith("_Last updated on"):
+            if updated:
+                updated_content.append(f"_Last updated on {current_time}_\n")
+                updated = False  # Reset the flag
+        else:
+            updated_content.append(line)
+
+    # Ensure timestamp is added if not already present
+    if updated:
+        updated_content.append(f"_Last updated on {current_time}_\n")
 
     # Write the updated content back to README.md
     with open("README.md", "w") as file:
-        file.writelines(content)
-
+        file.writelines(updated_content)
 
 def main() -> None:
     """
