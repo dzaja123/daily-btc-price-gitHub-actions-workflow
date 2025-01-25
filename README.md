@@ -28,6 +28,7 @@ Perfect for crypto enthusiasts and developers who want to keep their contributio
 This project was inspired by a post on X (formerly Twitter) where a developer who made a large number of daily commits on GitHub for a year was hired with no interview needed for a $500k/year job.
 Inspired by this post, I wanted to automate a way to achieve this while also providing useful, real-time information about Bitcoin prices.
 Now, I have both a fun contribution graph and up-to-date crypto price data every day!
+This project highlights that GitHub contribution stats alone do not always accurately reflect a developer’s true value or technical expertise.
 
 ---
 
