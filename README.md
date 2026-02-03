@@ -1,7 +1,7 @@
 # Bitcoin Price Updater
 
-### 🚨 **Current Bitcoin Price**: **💰 $78,293.00 USD** 💰
-_Last updated on 2026-02-03 12:58:56 UTC_
+### 🚨 **Current Bitcoin Price**: **💰 $73,152.00 USD** 💰
+_Last updated on 2026-02-03 18:55:46 UTC_
 
 ---
 
